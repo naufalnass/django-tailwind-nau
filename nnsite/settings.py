@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-p10=xt56i1n9-xg7qkg4y@l4nwe@vng$+hs0+)#p5761l7m+zp
 DEBUG = True
 
 ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -47,6 +48,8 @@ INSTALLED_APPS = [
 ]
 
 TAILWIND_APP_NAME = 'theme'
+
+TAILWIND_CSS_PATH = 'css/dist/styles.css'
 
 INTERNAL_IPS = [
     "127.0.0.1",
